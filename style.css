@@ -1,0 +1,317 @@
+#brand img{
+    width:200px;
+    height: 70px;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+
+}
+
+#carouselExampleCaptions h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2rem;
+    position: relative;
+    
+}
+
+.small-img{
+    width:50px;
+    height: auto;
+}
+
+.img-r{
+    text-align: right;
+}
+
+.img{
+    text-align: right;
+}
+
+nav .nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.red{
+    background: rgb(255, 0, 0);
+}
+
+#pov{
+    background: 
+     linear-gradient(
+       rgba(0, 0, 0, 0.6),
+       rgba(0, 0, 0, 0.6)
+     ),
+      url("img/f1-bg-5.jpg");
+      position: relative;
+     background-position: center;
+     opacity:0.95;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:#fff;
+     padding-top:75px;
+ }
+
+ #pov h1{
+     text-align: center;
+     font-family:'Yusei Magic', sans-serif;
+     margin-bottom: 20px;
+     
+ }
+
+ header h1{
+    text-align: center;
+    font-family:'Yusei Magic', sans-serif;
+    padding-top:10px;
+ }
+
+ #mercedes{
+     padding:5px;
+     border-right: 2px solid #000;
+     border-top: 2px solid #000;
+     border-radius: 10px;
+ }
+
+ #alpine{
+    border-right: 2px solid rgb(0, 60, 255);
+    border-top: 2px solid  rgb(0, 60, 255);
+    border-radius: 10px;
+}
+
+#haas{
+    border-right: 2px solid rgb(0, 5, 22);
+    border-top: 2px solid  rgb(0, 5, 22);
+    border-radius: 10px;
+}
+
+#mclaren{
+    border-right: 2px solid rgb(214, 182, 0);
+    border-top: 2px solid  rgb(214, 182, 0);
+    border-radius: 10px;
+}
+
+#alfa{
+    border-right: 2px solid rgb(243, 95, 50);
+    border-top: 2px solid  rgb(243, 95, 50);
+    border-radius: 10px;
+}
+
+#red{
+    border-right: 2px solid rgb(0, 60, 255);
+    border-top: 2px solid  rgb(0, 60, 255);
+    border-radius: 10px;
+}
+
+#aston{
+    border-right: 2px solid rgb(0, 255, 136);
+    border-top: 2px solid  rgb(0, 255, 136);
+    border-radius: 10px;
+}
+
+#ferrari{
+    border-right: 2px solid rgb(230, 16, 1);
+    border-top: 2px solid  rgb(230, 16, 1);
+    border-radius: 10px;
+}
+
+#alpha{
+    border-right: 2px solid rgb(0, 5, 22);
+    border-top: 2px solid  rgb(0, 5, 22);
+    border-radius: 10px;
+}
+
+#williams{
+    border-right: 2px solid rgb(0, 60, 255);
+    border-top: 2px solid  rgb(0, 60, 255);
+    border-radius: 10px;
+}
+
+.timovi h5{
+    font-family:'Yusei Magic', sans-serif;
+}
+
+ h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#vozaci{
+    padding-top:50px;
+}
+
+ 
+
+ #pov .container{
+     width:80%;
+     margin: 0 auto;
+ }
+
+ #pov p{
+    font-family: 'Roboto', monospace;
+    font-size:1.1rem;
+    
+ }
+
+ .row{
+     padding:20px;
+ }
+
+ #pov h4{
+     color:rgb(189, 189, 189);
+     font-size:1.6rem;
+    
+ }
+
+ .text-dark{
+     background: rgb(184, 184, 184);
+ }
+
+ .wrap{
+     background:rgb(155, 155, 155);
+ }
+
+ .right{
+     text-align: right;
+ }
+
+ .icon{
+     font-size: 1.5rem;
+     font-weight: 900;
+ }
+
+ .video-container {
+      position: relative;
+       padding-bottom: 56.25%; 
+       padding-top: 30px; 
+       height: 0; 
+       overflow: hidden;
+     }
+
+     .img{
+         text-align:center;
+
+     }
+
+.video-container iframe, .video-container object, .video-container embed 
+{
+     position: absolute;
+      top: 0; 
+      left: 0; 
+      width: 100%;
+       height: 100%; 
+    }
+
+    .side-bar h3{
+        padding: 15px 0;
+    }
+
+    .episodes h5{
+        color:rgb(0, 38, 252);
+        font-family:'Yusei Magic', sans-serif;
+    }
+
+    .episodes span{
+        color:rgb(180, 179, 179);
+    }
+
+    #serija-naslov{
+        font-family:'Yusei Magic', sans-serif;
+        font-size:2rem;
+    }
+
+
+ .carousel-caption{
+     position: relative;
+ }
+
+ .w-100 {
+    width: 100% !important;
+    height: 90vh;
+  }
+
+  .current{
+      font-weight: 900;
+  }
+
+  .sub-nav a:hover{
+      border-bottom: 2px solid rgb(255, 25, 25);
+      
+  }
+
+ @media (max-width: 1000px) {
+    #pov .container{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    #pov{
+        background-position: right;
+    }
+
+    *{
+        font-size:16px;
+    }
+ }
+
+ footer{
+     background: rgb(11, 11, 11);
+     color:#fff;
+     padding:10px 5px;
+     text-align: center;
+ }
+
+ #drivers{
+    background: 
+    linear-gradient(
+      rgba(168, 168, 168, 0.6),
+      rgba(202, 202, 202, 0.6)
+    ),
+     url("img/bg-light.jpg");
+     position: relative;
+    background-position: center;
+    opacity:0.95;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ #drivers .container{
+     padding-top:25px;
+ }
+
+ #hamilton,#verstappen,#bottas,#raikkonnen,#leclerc{
+     background:rgb(226, 226, 226);
+     border:1px solid rgb(226, 226, 226);
+     border-radius: 10px;
+ }
+
+
+
+ #drivers h5{
+     color:rgb(150, 150, 150);
+     font-size:2.4rem;
+     text-align: center;
+ }
+
+ #drivers h1{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ #drivers h2{
+     font-size:3.5rem;
+     font-family:'Yusei Magic', sans-serif;
+
+ }
+
+ #drivers .col-lg-4{
+     border-right: 2px solid rgb(49, 49, 49);
+ }
+
+ .grid{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+
+
+
+
