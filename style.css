@@ -275,6 +275,11 @@ nav .nav-link:hover{
     background-size: cover;
  }
 
+.sub-nav a{
+     color:#000;
+     font-size: 12px;
+ }
+
  #drivers .container{
      padding-top:25px;
  }
@@ -287,6 +292,7 @@ nav .nav-link:hover{
 
  table{
      width: 100%;
+     overflow-x:auto;
  }
 
 
@@ -483,6 +489,22 @@ main h2{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 800px){
+        #drivers .w-100 {
+            width: 100% !important;
+            height: 75vh;
+          }
+
+          th,tr{
+            padding:2px;
+            font-size:12px;
+         }
+
+         .ms-auto{
+             text-align: left;
+         }
   }
     
   
