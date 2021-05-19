@@ -498,13 +498,39 @@ main h2{
           }
 
           th,tr{
-            padding:2px;
+            padding:0px;
+            
+         }
+
+         table{
             font-size:12px;
          }
 
          .ms-auto{
              text-align: left;
          }
+
+         .ljestvica{
+            width: 100%;
+         
+             
+            
+         }
+
+        
+  }
+
+  @media (max-width: 750px) { 
+      .hide{
+          display: none;
+      }
+
+      .ljestvica{
+        width: 80%;
+     
+         
+        
+     }
   }
     
   
